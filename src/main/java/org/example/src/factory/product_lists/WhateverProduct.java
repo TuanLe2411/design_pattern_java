@@ -6,7 +6,7 @@ public class WhateverProduct extends Product {
     }
 
     @Override
-    public void create() {
-        System.out.println("Whatever product");
+    public String create() {
+        return "Whatever product";
     }
 }

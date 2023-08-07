@@ -6,7 +6,7 @@ public class DefaultProduct extends Product {
     }
 
     @Override
-    public void create() {
-        System.out.println("Default product");
+    public String create() {
+        return "Default product";
     }
 }

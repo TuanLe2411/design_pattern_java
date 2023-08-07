@@ -4,5 +4,5 @@ import lombok.Data;
 
 @Data
 public abstract class Product {
-    public abstract void create();
+    public abstract String create();
 }
